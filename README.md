@@ -8,6 +8,15 @@ Due date: 1/10/2023 11:59pm
 ## Program Goals
 "For Project 1, you will work with your group to find and analyze a dataset of your choice. For this project, you can focus your efforts within a specific industry." (BootcampSpot Project 1 Overview)
 
+## Dependencies
+Prophet Library, Pandas Library, Datetime Library, Numpy Library
+
+## Setup Instructions
+
+
+## How to use
+
+
 ## Team Member Responsibilities
 Brandon Welsh:
 
