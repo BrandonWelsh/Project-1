@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/meirnizri/covid19-dataset
 This dataset was downloaded to each of our local machines before we began to analyze it.
 
 ## Dependencies
-Prophet Library, Pandas Library, Datetime Library, Numpy Library, matplotlib.pyplot Library
+Prophet Library, Pandas Library, Datetime Library, Numpy Library, matplotlib.pyplot Library, Seaborn.
 
 ## Setup Instructions
 Run pip install Prophet, Pandas, Datetime, Numpy, and matplotlib.pyplot to acquire the required libraries
@@ -21,9 +21,7 @@ Brandon Welsh: I set out to determine whether obesity, cardiovascular disease, o
 
 Omar Hassanein: In the COVID data project, I focused on identifying occurrences of values 97 and 99 in data frame. I conducted analyses on hypertension, renal chronic conditions, medical units used and explored correlations with medical units, symptoms, and age. Additionally, I performed exploratory data analyses (EDAs) including descriptive statistics, missing data visualization, histograms for data distributions, and a correlation heatmap. My role also involved creating visually informative bar charts to highlight key data distributions.
 
-Marnie Brannon:
-
-
+Marnie Brannon: I was interested in working with data related to pneumonia, asthma, and immunosuppression diseases as they related to COVID-19 infection for this project.
 
 ## Team Member Analysis
 This section is dedicated to each member's interpretations of the raw dataset, their own process for cleaning the data, what visuals they chose to pursue, and their interpretation of the data based upon their visuals:
@@ -114,7 +112,8 @@ Brandon Welsh: To complete this project, I utilized the class notes for much of 
 
 Omar Hassanein:
 I successfully completed the project by referencing class notes for both data tasks and challenges.
-Marnie Brannon:
+
+Marnie Brannon: I used class notes and slides, as well as the advice my team mates, Alexander Vargas and tutor Sibusio Philly to clear errors and recommend how best to do certain tasks required in this project.  I used ai such as chat GPT to resolve syntax and variable name errors I needed help identifying.  I also owe great thanks to Yuyang Zhong, who was kind enough to spend a few hours helping me resolve an issue with Anaconda which completly halted my progress and compromised my chances of completing this project. Thank you Yuyang!
 
 Joe Timmons: I used previous class recordings as well as my personal notes to recall how to setup the data to answer our assigned questions related to the data. 
 
