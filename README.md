@@ -19,7 +19,7 @@ Run each cell of the individual .ipynb files to generate the visuals used in thi
 
 Brandon Welsh: I set out to determine whether obesity, cardiovascular disease, or tobacco use had any effect on ICU admission, Intubation, or Death as a result of Covid-19. I also wanted to determine if there was any correlation between these variables and the severity of Covid-19 infection.
 
-Omar Hassanein:
+Omar Hassanein: In the COVID data project, I focused on identifying occurrences of values 97 and 99 in data frame. I conducted analyses on hypertension, renal chronic conditions, medical units used and explored correlations with medical units, symptoms, and age. Additionally, I performed exploratory data analyses (EDAs) including descriptive statistics, missing data visualization, histograms for data distributions, and a correlation heatmap. My role also involved creating visually informative bar charts to highlight key data distributions.
 
 Marnie Brannon:
 
@@ -103,7 +103,7 @@ This section is dedicated to keep track of what we used to help complete this pr
 Brandon Welsh: To complete this project, I utilized the class notes for much of the data cleaning and analysis, only referring to an AI whenever I got stuck or needed help with syntax. 
 
 Omar Hassanein:
-
+I successfully completed the project by referencing class notes for both data tasks and challenges.
 Marnie Brannon:
 
 Joe Timmons: I used previous class recordings as well as my personal notes to recall how to setup the data to answer our assigned questions related to the data. 
