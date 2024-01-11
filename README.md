@@ -21,8 +21,7 @@ Brandon Welsh: I set out to determine whether obesity, cardiovascular disease, o
 
 Omar Hassanein: In the COVID data project, I focused on identifying occurrences of values 97 and 99 in data frame. I conducted analyses on hypertension, renal chronic conditions, medical units used and explored correlations with medical units, symptoms, and age. Additionally, I performed exploratory data analyses (EDAs) including descriptive statistics, missing data visualization, histograms for data distributions, and a correlation heatmap. My role also involved creating visually informative bar charts to highlight key data distributions.
 
-Marnie Brannon:
-
+Marnie Brannon: I was interested in working with data related to pneumonia, asthma, and immunosuppression diseases as they related to COVID-19 infection for this project.
 
 
 ## Team Member Analysis
@@ -93,7 +92,14 @@ combined_df = combined_df[combined_df['RENAL_CHRONIC'] != 98]
 To understand the relevance of the medical unit to symptoms and age, we performed a detailed analysis. We created a new DataFrame (df_without_98) by filtering out rows containing the value 98 and then generated a pivot table (pivot_table) summarizing the counts for each combination of 'RENAL_CHRONIC' and 'HIPERTENSION' within each 'MEDICAL_UNIT'.
 
 This horizontal stacked bar chart provides a visual representation of the counts for different combinations of 'RENAL_CHRONIC' and 'HIPERTENSION' within each 'MEDICAL_UNIT', allowing us to identify patterns and correlations.
+
 Marnie Brannon:
+We investigated several datasets on different subjects prior to deciding on one. One in particular was in the running as well, and I wrote a detailed list of analysis questions to help us make our final decision.   Once we decided to go with the COVID-19 related dataset we found on www.kaggle.com  I prepared for the project by downloading and renaming the dataset and preparing it for use. In VS Code I began to determine the size and quality of the data using Pandas to display and explore anomalies, nulls, and other issues that would need to be addressed before using the data.  I used Jupyter notebook dataframes to organize my work and markdown language to record details about the data set that were relevant to this work. Once I had explored the data to my satisfaction, I began reordering and deleting unneeded columns i.e. Those areas where data was incomplete, irrelevant or would be handled by my teammates. I then continued to use Pandas to rename, reorder and remap several columns to provide a more user-friendly, readable view of the data.  
+Once this was completed, I began to use visualizations to see what interesting insights the data had to offer. My chosen focus was pneumonia, asthma and immunosuppression disease. I explored how these related to deaths from covid and ICU admittance. I did several bar charts and pie charts using Matplotlib and seaborn, from which I learned the following:
+-	50% of all patients admitted to the ICU died.  I thought all of the categories I studied would be higher than 50% but only the pneumonia ratio is higher at  56.8.  
+-	Surprisingly immunosuppressed rates and asthma rates had better than average survival among ICU admitted patients.
+-	Of the COVID-19 Severity levels recorded, level three was the most influenced by the presence of the factors I covered. 
+-	All three factors I studied had the highest occurrences among non-covid patients.
 
 Joe Timmons:
 Pulled the dataset , named it CovidData.csv and cleaned it as prep. Once loaded into VS I used pandas for data manipulation within my jupyter notebook dataframes. I also loaded matplotlib and seaborn for data visualization. After I defined the correct file path as a preliminary test I displayed first few rows of the dataframe are displayed using covid_data.head(), which helped me understanding the dataset's columns, such as patient demographics, medical conditions, and COVID-19 related information.
@@ -114,7 +120,9 @@ Brandon Welsh: To complete this project, I utilized the class notes for much of 
 
 Omar Hassanein:
 I successfully completed the project by referencing class notes for both data tasks and challenges.
+
 Marnie Brannon:
+Marnie Brannon: I used class notes and slides, as well as the advice my teammates, Alexander Vargas and tutor Sibusio Philly to clear errors and recommend how best to do certain tasks required in this project.  I used ai such as chat GPT to resolve syntax and variable name errors I needed help identifying.  I also owe great thanks to Yuyang Zhong, who was kind enough to spend a few hours helping me resolve an issue with Anaconda which completly halted my progress and compromised my chances of completing this project. Thank you Yuyang!
 
 Joe Timmons: I used previous class recordings as well as my personal notes to recall how to setup the data to answer our assigned questions related to the data. 
 
