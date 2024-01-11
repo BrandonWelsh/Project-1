@@ -16,10 +16,8 @@ Run pip install Prophet, Pandas, Datetime, Numpy, and matplotlib.pyplot to acqui
 Run each cell of the individual .ipynb files to generate the visuals used in this project. They should have already been run when uploaded to github and are ready to be viewed.
 
 ## Team Member Responsibilities
-Brandon Welsh:
-This section is dedicated to discussing what each of us did to make this project what it is today:
 
-Brandon Welsh: 
+Brandon Welsh:
 
 Omar Hassanein:
 
