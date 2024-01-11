@@ -71,7 +71,7 @@ Omar Hassanein:
 
 Marnie Brannon:
 
-Joe Timmons:
+Joe Timmons: I used previous class recordings as well as my personal notes to recall how to setup the data to answer our assigned questions related to the data. 
 
 ## Bugs
 
