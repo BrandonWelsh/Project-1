@@ -20,6 +20,22 @@ Run each cell of the individual .ipynb files to generate the visuals used in thi
 Brandon Welsh: I set out to determine whether obesity, cardiovascular disease, or tobacco use had any effect on ICU admission, Intubation, or Death as a result of Covid-19. I also wanted to determine if there was any correlation between these variables and the severity of Covid-19 infection.
 
 Omar Hassanein:
+# Comprehensive COVID Data Analysis Report
+
+## Overview
+
+This project involves an in-depth analysis of COVID-19 data using a Jupyter Notebook and the pandas library in Python. The primary objective is to gain insights into the distribution and impact of specific values (97 and 99) across various columns in the provided DataFrame (`df_covid_data`).
+
+### Identification of Key Values (97 and 99)
+
+In the initial stage of the analysis, we identified and counted the occurrences of specific values (97 and 99) in each column of the DataFrame. This helps in understanding the prevalence of these values across different aspects of the COVID dataset.
+
+```python
+# Count occurrences of 97 and 99 for each column
+count_97 = df_covid_data.apply(lambda col: col[col == 97].count())
+count_99 = df_covid_data.apply(lambda col: col[col == 99].count())
+
+
 
 Marnie Brannon:
 
