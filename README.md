@@ -91,6 +91,7 @@ combined_df = combined_df[combined_df['RENAL_CHRONIC'] != 98]
 To understand the relevance of the medical unit to symptoms and age, we performed a detailed analysis. We created a new DataFrame (df_without_98) by filtering out rows containing the value 98 and then generated a pivot table (pivot_table) summarizing the counts for each combination of 'RENAL_CHRONIC' and 'HIPERTENSION' within each 'MEDICAL_UNIT'.
 
 This horizontal stacked bar chart provides a visual representation of the counts for different combinations of 'RENAL_CHRONIC' and 'HIPERTENSION' within each 'MEDICAL_UNIT', allowing us to identify patterns and correlations.
+
 Marnie Brannon:
 
 Joe Timmons:
@@ -113,7 +114,7 @@ Brandon Welsh: To complete this project, I utilized the class notes for much of 
 Omar Hassanein:
 I successfully completed the project by referencing class notes for both data tasks and challenges.
 
-Marnie Brannon: I used class notes and slides, as well as the advice my team mates, Alexander Vargas and tutor Sibusio Philly to clear errors and recommend how best to do certain tasks required in this project.  I used ai such as chat GPT to resolve syntax and variable name errors I needed help identifying.  I also owe great thanks to Yuyang Zhong, who was kind enough to spend a few hours helping me resolve an issue with Anaconda which completly halted my progress and compromised my chances of completing this project. Thank you Yuyang!
+Marnie Brannon: I used class notes and slides, as well as the advice my teammates, Alexander Vargas and tutor Sibusio Philly to clear errors and recommend how best to do certain tasks required in this project.  I used ai such as chat GPT to resolve syntax and variable name errors I needed help identifying.  I also owe great thanks to Yuyang Zhong, who was kind enough to spend a few hours helping me resolve an issue with Anaconda which completly halted my progress and compromised my chances of completing this project. Thank you Yuyang!
 
 Joe Timmons: I used previous class recordings as well as my personal notes to recall how to setup the data to answer our assigned questions related to the data. 
 
