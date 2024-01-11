@@ -1,10 +1,3 @@
-## Information
-Written by: Brandon Welsh, Omar Hassanein, Marnie Brannon, and Joe Timmons
-
-Start date: 12/21/2023 7:00pm
-
-Due date: 1/10/2023 11:59pm
-
 ## Program Goals
 "For Project 1, you will work with your group to find and analyze a dataset of your choice. For this project, you can focus your efforts within a specific industry." (BootcampSpot Project 1 Overview)
 
@@ -23,7 +16,6 @@ Run pip install Prophet, Pandas, Datetime, Numpy, and matplotlib.pyplot to acqui
 Run each cell of the individual .ipynb files to generate the visuals used in this project. They should have already been run when uploaded to github and are ready to be viewed.
 
 ## Team Member Responsibilities
-This section is dedicated to discussing what each of us did to make this project what it is today:
 
 Brandon Welsh: I set out to determine whether obesity, cardiovascular disease, or tobacco use had any effect on ICU admission, Intubation, or Death as a result of Covid-19. I also wanted to determine if there was any correlation between these variables and the severity of Covid-19 infection.
 
@@ -51,8 +43,6 @@ I then performed the same analysis on patients with Cardiovascular disease and t
 Finally, I wanted to plot covid deaths over time from all sources. The only time-based metric we had within this dataset was death date. Filtering out those with values of 9999-99-99 left us with only those who died from covid. I was then able to plot the sum of unique dates in this column to a time series. What we are left with is a distribution of deaths which is perfectly flat before about April 2020 (covid wasn't around before then). In April, it begins to spike sharply, peaking around July-August 2020 before suddenly, inexplicibly dropping off to nearly zero. Knowing what I know about history, this was not the case during the pandemic. Cases fell in autumn before surging back during winter. A winter surge was not observed in this dataset, as the time series goes out to May 2021 but is flat around 0 deaths from August 2020 onward. This leads me to believe that there may have been an issue with the way data was recorded in this specific dataset, or perhaps the Mexican government began recording Covid deaths differently and that affected reporting procedures. An initial historical search didn't turn up any relevant information. If I had more time, I would investigate this further.
 
 Omar Hassanein:
-
-Marnie Brannon:
 
 Joe Timmons:
 
