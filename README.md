@@ -1,10 +1,3 @@
-## Information
-Written by: Brandon Welsh, Omar Hassanein, Marnie Brannon, and Joe Timmons
-
-Start date: 12/21/2023 7:00pm
-
-Due date: 1/10/2023 11:59pm
-
 ## Program Goals
 "For Project 1, you will work with your group to find and analyze a dataset of your choice. For this project, you can focus your efforts within a specific industry." (BootcampSpot Project 1 Overview)
 
@@ -23,9 +16,8 @@ Run pip install Prophet, Pandas, Datetime, Numpy, and matplotlib.pyplot to acqui
 Run each cell of the individual .ipynb files to generate the visuals used in this project. They should have already been run when uploaded to github and are ready to be viewed.
 
 ## Team Member Responsibilities
-This section is dedicated to discussing what each of us did to make this project what it is today:
 
-Brandon Welsh: 
+Brandon Welsh:
 
 Omar Hassanein:
 
@@ -39,8 +31,6 @@ This section is dedicated to each member's interpretations of the raw dataset, t
 Brandon Welsh: 
 
 Omar Hassanein:
-
-Marnie Brannon:
 
 Joe Timmons:
 
