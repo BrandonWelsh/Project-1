@@ -39,7 +39,7 @@ count_99 = df_covid_data.apply(lambda col: col[col == 99].count())
 
 Marnie Brannon:
 
-Joe Timmons:
+
 
 ## Team Member Analysis
 This section is dedicated to each member's interpretations of the raw dataset, their own process for cleaning the data, what visuals they chose to pursue, and their interpretation of the data based upon their visuals:
@@ -61,6 +61,16 @@ Finally, I wanted to plot covid deaths over time from all sources. The only time
 Omar Hassanein:
 
 Joe Timmons:
+Pulled the dataset , named it CovidData.csv and cleaned it as prep. Once loaded into VS I used pandas for data manipulation within my jupyter notebook dataframes. I also loaded matplotlib and seaborn for data visualization. After I defined the correct file path as a preliminary test I displayed first few rows of the dataframe are displayed using covid_data.head(), which helped me understanding the dataset's columns, such as patient demographics, medical conditions, and COVID-19 related information.
+
+For the visualizations I knew that I had to hone in on the data columns related to my assigned covid19 condition variables being COPD, Pregnancy, and Diabetes. I then filtered like I did for diabetes by applying code filters the dataset to focus only on patients with diabetes (i.e., rows where DIABETES equals 1). Then used this filtered data  stored in a new DataFrame named diabetes_data/ copd_data / diabetes_data.
+
+After creation of the visuals I had a number of insights around the data for my assigned covid19 variables:
+Insight: Diabetes had the greatest effect on patients at both extremes of severity.
+Insight: Covid19 patients aged 56 to 64 had the highest infection rate with diabetes as an underlying chronic condition.
+Insight: Pregnant patients aged in 30s were highest number affected by Covid-19 in this Mexican Dataset. 
+Insight: COPD had greatest effect on Covid-19 patents at both extremes of severity.  
+Insight: COPD had greatest effect on older aged patients across all 3 severities. 
 
 ## Resources Utilized
 This section is dedicated to keep track of what we used to help complete this project:
